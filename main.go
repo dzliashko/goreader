@@ -20,6 +20,9 @@ func main() {
 	})
 
 	for _, article := range articles {
-		fmt.Printf("Feed Title: %s, Article Title: %s\n", feed.Title, article.Title)
+		fmt.Println(feed)
+		fmt.Println(article)
 	}
+	articles[0].MarkAsRead()
+	fmt.Println(articles[0])
 }
