@@ -19,8 +19,8 @@ func main() {
 		Content: "Awesome Go: ~3000 Categorized Go Resources — Most curated ‘awesome’ collections go stale, but I’ve been impressed that Go’s gets almost-daily updates! It’s a perennially useful resource and worth revisiting in a week short on big Go news (are we all enjoying the World Cup?",
 	})
 
+	fmt.Println(feed)
 	for _, article := range articles {
-		fmt.Println(feed)
 		fmt.Println(article)
 	}
 	articles[0].MarkAsRead()
