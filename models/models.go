@@ -18,7 +18,6 @@ type Article struct {
 
 func NewFeed(title, url, description string) Feed {
 	return Feed{
-		ID:          0,
 		Title:       title,
 		URL:         url,
 		Description: description,
